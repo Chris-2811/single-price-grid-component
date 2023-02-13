@@ -33,8 +33,8 @@ h2 {
 .grid-container {
   display: grid;
   max-width: 635px;
+  max-height: 475px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 15px 30px rgba(0, 81, 171, 0.1488);
@@ -54,7 +54,6 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28.06px;
-  letter-spacing: -0.3px;
   margin-bottom: 24px;
 }
 
@@ -71,15 +70,16 @@ h2 {
 
 .grid-container .item-2 {
   background: var(--Cyan-);
-  grid-column: 1 / 2;
   color: #fff;
+  padding-bottom: 39px;
   padding-right: 39px;
+  
 }
 
 .grid-container .item-2 .price {
   display: flex;
   align-items: center;
-  margin: 24px 0 4px 0;
+  margin: 18px 0 4px 0;
 }
 
 .grid-container .item-2 .price span {
