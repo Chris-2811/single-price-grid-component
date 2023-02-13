@@ -55,6 +55,7 @@ h2 {
   font-weight: 700;
   line-height: 28.06px;
   margin-bottom: 24px;
+  letter-spacing: -0.3px;
 }
 
 .grid-container .sub-header {
@@ -73,7 +74,6 @@ h2 {
   color: #fff;
   padding-bottom: 39px;
   padding-right: 39px;
-  
 }
 
 .grid-container .item-2 .price {
@@ -88,6 +88,7 @@ h2 {
 
 .grid-container .item-2 p {
   line-height: 26px;
+  letter-spacing: -0.2px;
 }
 
 .btn {
