@@ -73,6 +73,7 @@ h2 {
   background: var(--Cyan-);
   grid-column: 1 / 2;
   color: #fff;
+  padding-right: 39px;
 }
 
 .grid-container .item-2 .price {
@@ -87,7 +88,6 @@ h2 {
 
 .grid-container .item-2 p {
   line-height: 26px;
-  letter-spacing: -0.2;
 }
 
 .btn {
@@ -114,8 +114,7 @@ h2 {
 }
 
 .grid-container .item-3 {
-  background-color: rgb(106, 187, 188);
-
+  background-color: #4abebd;
   grid-column: 2 / 3;
   color: #fff;
 }
@@ -133,9 +132,39 @@ h2 {
 /* Mobile */
 
 @media (max-width: 375px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-}
+  .grid-container {
+    display: block;
+    width: 311px;
+    margin: 72px 32px 62px 32px;
+  }
 
+  .grid-container .item {
+    padding: 28px 24px 24px 24px;
+  }
+
+  body {
+    display: block;
+    height: 100%;
+  }
+
+  .grid-container .item-1 h1 {
+    font-size: 20px;
+  }
+
+  .grid-container .sub-header {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .grid-container .item-2 p {
+    font-weight: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
